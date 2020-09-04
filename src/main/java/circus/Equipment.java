@@ -1,3 +1,5 @@
+package circus;
+
 public abstract class Equipment {
     protected int purchasePrice;
 

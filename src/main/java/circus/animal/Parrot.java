@@ -1,3 +1,5 @@
+package circus.animal;
+
 public class Parrot extends Bird {
     @Override
     public String speak() {
