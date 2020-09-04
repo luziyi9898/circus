@@ -6,3 +6,6 @@ Adding item value: 25
 Ignoring low value item: 1
 Adding item value: 33
 Total value of equipments 58
+Adding item value: 10
+Adding item value: 20
+Total value of animals 30
