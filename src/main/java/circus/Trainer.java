@@ -10,7 +10,7 @@ import circus.animal.Parrot;
 
 public class Trainer {
     public static void main(String[] args) {
-        Duck d = new Duck();
+        Duck d = new Duck("Donald");
         getToSpeak(d);
 
         Bird b = (Bird)d;  // upcasting
@@ -20,6 +20,7 @@ public class Trainer {
         getToSpeak(a);
 
         Duck d2 = (Duck) a; // downcasting
+<<<<<<< HEAD
         getToSpeak(d2);
         train(new Duck());
 <<<<<<< HEAD:src/main/java/circus/Trainer.java
@@ -27,6 +28,9 @@ public class Trainer {
         Animal a2 = new Animal();
         Bird b2 = new Bird();
 =======
+=======
+        train(new Duck("Daisy"));
+>>>>>>> upstream/master
         // train(new circus.animal.Parrot());
 >>>>>>> origin/improved:src/main/java/Trainer.java
     }
